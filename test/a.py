@@ -1,3 +1,6 @@
+from re import S
+
+
 def main():
     print("hello world , Im is a main")
 
@@ -12,3 +15,11 @@ b=20
 
 def __str__(self):
     return f"a={a}, b={b}"
+
+
+def speak():
+   print(x)
+
+
+x = 1
+speak()
