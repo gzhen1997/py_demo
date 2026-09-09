@@ -281,6 +281,6 @@ class TestAverage(unittest.TestCase):
 # unittest.main()  # Calling from the command line invokes all tests
 
 
-os.chdir("../")
-print(os.getcwd())
-shutil.make_archive("py_demo", "zip", "py_demo")
+# os.chdir("../")
+# print(os.getcwd())
+# shutil.make_archive("py_demo", "zip", "py_demo")
